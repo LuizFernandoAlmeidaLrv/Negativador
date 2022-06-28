@@ -1,0 +1,9 @@
+br\com\martinello\importador\dao\PropriedadesBDP.class
+br\com\martinello\importador\dao\PropriedadesBD.class
+br\com\martinello\importador\dao\Conexao.class
+br\com\martinello\importador\dao\ImpContasReceberDAO.class
+br\com\martinello\importador\dao\ConexaoPGSQL.class
+br\com\martinello\importador\dao\ImportContasReceberCorrecao.class
+br\com\martinello\importador\dao\SincronizaSpcDAO.class
+br\com\martinello\importador\domain\Main.class
+br\com\martinello\importador\dao\ImpcdlDAO.class

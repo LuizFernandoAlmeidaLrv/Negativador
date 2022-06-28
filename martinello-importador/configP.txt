@@ -1,0 +1,12 @@
+BANCODADOS
+POSTGRES
+ENDERECO
+192.168.0.42
+PORTA
+5432
+BANCO
+gerenciador
+USUARIO
+postgres
+SENHA
+!@#xuxu!@#

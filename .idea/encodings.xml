@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/martinello-bd-matriz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/martinello-bd-matriz/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/martinello-componentes-basicos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/martinello-componentes-basicos/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/martinello-consulta/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/martinello-consulta/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/martinello-importador/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/martinello-importador/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/martinello-sistema/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/martinello-sistema/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/martinello-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/martinello-util/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

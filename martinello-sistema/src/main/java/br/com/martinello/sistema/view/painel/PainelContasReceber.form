@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,44,0,0,1,-112"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+  <SubComponents>
+    <Container class="br.com.martinello.componentesbasicos.paineis.Painel" name="pTotais">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Totais"/>
+          </Border>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[1364, 180]"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="South"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+      <SubComponents>
+        <Container class="br.com.martinello.componentesbasicos.paineis.Painel" name="pParcelasCliente">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Parcelas do Cliente"/>
+              </Border>
+            </Property>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[650, 150]"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+              <BorderConstraints direction="West"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="rIndDebitoCliente" min="-2" pref="140" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="cvIndDebitoCliente" min="-2" pref="100" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="rGeralCliente" min="-2" pref="140" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="cvGeralCliente" min="-2" pref="100" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="rVencidosCliente" min="-2" pref="140" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="cvVencidosCliente" min="-2" pref="100" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="rDiasMediosCliente" min="-2" pref="140" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="cvDiasMedioCliente" min="-2" pref="100" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="rIndAtrazoCli" min="-2" pref="140" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="cvIndAtrazoCli" min="-2" pref="100" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="rVencerCli" min="-2" pref="140" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="cvVencerCli" min="-2" pref="100" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="rAbertoCli" min="-2" pref="140" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="cvAbertoCli" min="-2" pref="100" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="110" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="rGeralCliente" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                          <Component id="cvGeralCliente" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                          <Component id="rAbertoCli" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                          <Component id="cvAbertoCli" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="rVencidosCliente" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                          <Component id="cvVencidosCliente" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                          <Component id="rVencerCli" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                          <Component id="cvVencerCli" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="rDiasMediosCliente" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                          <Component id="cvDiasMedioCliente" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                          <Component id="rIndAtrazoCli" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                          <Component id="cvIndAtrazoCli" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="rIndDebitoCliente" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                          <Component id="cvIndDebitoCliente" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="21" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="br.com.martinello.componentesbasicos.Rotulo" name="rGeralCliente">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Geral:"/>
+              </Properties>
+            </Component>
+            <Component class="br.com.martinello.componentesbasicos.Rotulo" name="rVencidosCliente">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Vencidos:"/>
+              </Properties>
+            </Component>
+            <Component class="br.com.martinello.componentesbasicos.Rotulo" name="rDiasMediosCliente">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Dias M&#xe9;dios:"/>
+              </Properties>
+            </Component>
+            <Component class="br.com.martinello.componentesbasicos.Rotulo" name="rIndDebitoCliente">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ind.D&#xe9;bito:"/>
+              </Properties>
+            </Component>
+            <Component class="br.com.martinello.componentesbasicos.CampoValor" name="cvGeralCliente">
+            </Component>
+            <Component class="br.com.martinello.componentesbasicos.CampoValor" name="cvVencidosCliente">
+            </Component>
+            <Component class="br.com.martinello.componentesbasicos.CampoValor" name="cvDiasMedioCliente">
+            </Component>
+            <Component class="br.com.martinello.componentesbasicos.CampoValor" name="cvIndDebitoCliente">
+            </Component>
+            <Component class="br.com.martinello.componentesbasicos.Rotulo" name="rVencerCli">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="A Vencer:"/>
+              </Properties>
+            </Component>
+            <Component class="br.com.martinello.componentesbasicos.Rotulo" name="rAbertoCli">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Aberto:"/>
+              </Properties>
+            </Component>
+            <Component class="br.com.martinello.componentesbasicos.Rotulo" name="rIndAtrazoCli">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ind. Atrazo:"/>
+              </Properties>
+            </Component>
+            <Component class="br.com.martinello.componentesbasicos.CampoValor" name="cvAbertoCli">
+            </Component>
+            <Component class="br.com.martinello.componentesbasicos.CampoValor" name="cvVencerCli">
+            </Component>
+            <Component class="br.com.martinello.componentesbasicos.CampoValor" name="cvIndAtrazoCli">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="br.com.martinello.componentesbasicos.paineis.Painel" name="pParcelasAvalista">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Parcelas do Avalista"/>
+              </Border>
+            </Property>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[650, 150]"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+              <BorderConstraints direction="East"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="rDiasMediosAva" min="-2" pref="140" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="cvDiasMedioAva" min="-2" pref="100" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="rGeralAva" min="-2" pref="140" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="cvGeralAva" min="-2" pref="100" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="rVencidosAva" min="-2" pref="140" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="cvVencidosAva" min="-2" pref="100" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="rVencerAva" min="-2" pref="140" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="cvVencerAva" min="-2" pref="100" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="rAbertoAva" min="-2" pref="140" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="cvAbertoAva" min="-2" pref="100" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="118" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="rGeralAva" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                          <Component id="cvGeralAva" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                          <Component id="rAbertoAva" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                          <Component id="cvAbertoAva" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="rVencidosAva" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                          <Component id="cvVencidosAva" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                          <Component id="rVencerAva" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                          <Component id="cvVencerAva" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="rDiasMediosAva" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                          <Component id="cvDiasMedioAva" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="48" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="br.com.martinello.componentesbasicos.CampoValor" name="cvVencidosAva">
+            </Component>
+            <Component class="br.com.martinello.componentesbasicos.Rotulo" name="rVencidosAva">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Vencidos:"/>
+              </Properties>
+            </Component>
+            <Component class="br.com.martinello.componentesbasicos.Rotulo" name="rGeralAva">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Geral:"/>
+              </Properties>
+            </Component>
+            <Component class="br.com.martinello.componentesbasicos.CampoValor" name="cvGeralAva">
+            </Component>
+            <Component class="br.com.martinello.componentesbasicos.Rotulo" name="rDiasMediosAva">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Dias M&#xe9;dios:"/>
+              </Properties>
+            </Component>
+            <Component class="br.com.martinello.componentesbasicos.CampoValor" name="cvDiasMedioAva">
+            </Component>
+            <Component class="br.com.martinello.componentesbasicos.Rotulo" name="rVencerAva">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="A Vencer:"/>
+              </Properties>
+            </Component>
+            <Component class="br.com.martinello.componentesbasicos.Rotulo" name="rAbertoAva">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Aberto:"/>
+              </Properties>
+            </Component>
+            <Component class="br.com.martinello.componentesbasicos.CampoValor" name="cvVencerAva">
+            </Component>
+            <Component class="br.com.martinello.componentesbasicos.CampoValor" name="cvAbertoAva">
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="br.com.martinello.componentesbasicos.paineis.Painel" name="pContasReceber">
+      <Properties>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[1364, 550]"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="Center"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane7">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+              <BorderConstraints direction="Center"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="br.com.martinello.componentesbasicos.TabelaPadrao" name="tpContasReceber">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="otmContasReceber" type="code"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

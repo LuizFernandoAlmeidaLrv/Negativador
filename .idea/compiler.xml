@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="martinello-sistema" />
+        <module name="martinello-importador" />
+        <module name="martinello-consulta" />
+        <module name="martinello-componentes-basicos" />
+        <module name="martinello-bd-matriz" />
+        <module name="martinello-util" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

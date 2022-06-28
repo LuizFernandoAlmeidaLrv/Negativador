@@ -1,0 +1,15 @@
+br\com\martinello\consulta\Domain\ContasReceber_Movimentos.class
+br\com\martinello\consulta\Domain\VendasModel.class
+br\com\martinello\consulta\Domain\ParcelasModel.class
+br\com\martinello\consulta\Domain\ReferenciasModel.class
+br\com\martinello\consulta\Domain\VendasItensModel.class
+br\com\martinello\consulta\Domain\ConsultaSpcBvsModel.class
+br\com\martinello\consulta\Domain\PendenciaModel.class
+br\com\martinello\consulta\Domain\ObservacaoModel.class
+br\com\martinello\consulta\Domain\TituloModel.class
+br\com\martinello\consulta\Domain\EnderecoModel.class
+br\com\martinello\consulta\Domain\ContasReceberModel.class
+br\com\martinello\consulta\Domain\HistoricoCliente.class
+br\com\martinello\consulta\Domain\ConsultaClienteModel.class
+br\com\martinello\consulta\Domain\DadosComerciaisModel.class
+br\com\martinello\consulta\Domain\PessoaModel.class
