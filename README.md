@@ -1,0 +1,2 @@
+# Negativador
+Sistema de Negativação
